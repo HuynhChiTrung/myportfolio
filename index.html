@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Scroll to top button -->
+    <div id="scroll-to-top" class="scroll-to-top">
+      <button class="scroll-btn"><i class="fas fa-chevron-up"></i></button>
+    </div>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <!-- logo -->
+          <div class="navbar__logo">
+            <img src="./img/logo.svg" alt="website logo" />
+          </div>
+          <div class="banner__dec">
+            <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+          </div>
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="#banner">Home</a></li>
+            <li class="navbar__link"><a href="#things">About</a></li>
+            <li class="navbar__link"><a href="#works">Work</a></li>
+            <a href="#footer"><button class="navbar__btn">Contact</button></a>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <img src="./img/banner.png" alt="illustration of women" />
+        </div>
+        
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>Hello, I'm Huynh Chi Trung</h1>
+          <p>   
+           I am a third-year student at Ho Chi Minh City University of Technical Education. 
+           My major is Industrial Electronics.I had the opportunity to access core knowledge and apply it to real projects. 
+           I believe that this learning and experience will be a solid foundation for my future career.
+          </p>
+          <div class="banner__socials">
+            <a href="https://www.facebook.com/chitrung.huynh.9847/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+            <a href="https://www.linkedin.com/in/chi-trung-huynh-a596352b7/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+    <!-- things -->
+    <section id="things">
+      <div class="container">
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-r.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>About me</h2>
+        <!-- item 1 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/things-item-1-1.png" alt="illustration of women" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Introduction</h3>
+            <p>
+              Hello everyone, I am Huynh Chi Trung from Ho Chi Minh, Viet Nam. 
+              I'm currently a third-year student at the HCM University of Technology and Education (HCMUTE).
+               My major is industrial electronics engineering.
+              Besides studying, I often play the game FC Onilne. Although my idol is Messi, 
+              I don't play him in the game. In particular, I like cycling at night, and am passionate about traveling
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/things-item-2-1.png" alt="illustration of women" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Education</h3>
+            <p>
+               - 2018-2021: Studied at Nguyen Van Tiep High School, Tien Giang.
+            </p>
+            <p>
+               - 2021-Presen: Studying industrial electronics engineering at Ho Chi Minh University of Technology and Education.
+            </p>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/things-item-3-2.png" alt="illustration of computer" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Skill</h3>
+            <p>
+              - Language: C/C++,VHDL, python.
+            </p>
+            <p>
+              - Knowledge: IOT, electronic circuits, PLC, digital IC...
+            </p>
+            <p>
+              - Good ability in teamwork, high responsibility in work, eager to learn.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- works -->
+    <section id="works">
+      <div class="container">
+        <!-- dec -->
+        <div class="works__dec">
+          <img src="./img/work-dec.png" alt="illustration of leaf" />
+        </div>
+        <div class="works__dec">
+          <img src="./img/work-dec.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Recent Projects</h2>
+        <!-- img -->
+        <div class="works__img">
+          <div class="works__img--single change-color-on-hover">
+            <img src="./img/work-ras-1.png" alt="bag" data-info="<img src='./img/work-ras-info.png' alt='New Image 1' /><br/>Hệ thông giám sát nhiệt độ và độ ẩm cho nhà thông minh. <br/> <br/>Hệ thống dùng ESP32 giao tiếp với cảm biến DHT11 và LCD hiển thị thông tin cho người dùng, tiến hành đưa dữ liệu lên WebServer.<br/> Rasberry Pi4 nhận dữ liệu nhiệt độ và đọ ẩm từ ESP32 để tự động thực hiện ON/OFF quạt khi nhiệt độ quá ngưỡng cho phép, <br/>cũng như đèn cảnh báo độ ẩm. Đồng thời Ras Pi4 gửi dữ liệu lên Firebase để tiến hành cập nhật giá trị dữ kiệu lên App Android.<br/> Hệ thông này thích hợp cho mô hình nhà thông minh, nhà kín, chuồng trại chăn nuôi,<br/> có thể mở rộng điều khiển ngoại vi nhiều hơn theo yêu cầu người dùng."/>
+          </div>          
+          <div class="works__img--single change-color-on-hover">
+            <img src="./img/work-blu.png" alt="plate" data-info="<img src='./img/work-blu-info.png' alt='New Image 1' /><br/>Hệ thông điều khiển thiết bị bằng giọng nói thông qua kết nối Bluetooth<br/> <br/>Bộ sử lí chính dùng Ardruino Nano kết nối với modul bluetooth HC05, bên cạnh đó còn có nút nhán cho phép người dùng ON/OFF thiết bị<br/> như truyền thống.Điều này cho phép hệ thống thay thế hoàn toàn hệ thống truyền thống của nhà bạn mà không cần phải đi lại hệ thông điện.<br/>Người dùng có thể mở rộng modul Relay để có thể điều khiển được nhiều thiết bị hơn.Với App Android được thiết kế thân thiện,cho phép người dùng<br/> dễ dàng thao tác, chỉ cần kết nói Bluetooth trên điện thoại bạn có thể điều khiển thiết bị trong nhà với phạm vi dưới bán kính 15m.<br/> Về phần giao tiếp, giọng nói được sử dụng Tiếng Việt nên rất dễ giao tiếp hoặc ON/OFF bằng Switch trên App"/>
+          </div>
+          <div class="works__img--single change-color-on-hover">
+            <img src="./img/work-dem.png" alt="women" data-info="<img src='./img/work-dem-info-1.png' alt='New Image 1' /><br/>Thiết bị đếm sản phẩm dùng cảm biến hòng ngoại và cho phép đặt trước số đếm.<br/>  <br/> Thiết bị được thiết kế hoàn toàn dụng IC số, cho phép đếm và đặt trước đến 9999 sản phẩm, có thể chỉnh tăng hoặc giảm số đặt trước <br/> từng hàng đơn vị, chục, trăm, ngàn thông qua switch tương ứng.Thiết bị này đươc ứng dụng trong khác nhiều hệ thống để đếm sản phảm, đếm xe, đếm người...<br/> sử dụng modul cảm biens hồng ngoại E18-D80NK với khoảng cách tới đa 80cm. Khi số đếm và số đặt trước bằng nhau thiết bị sẽ tạo mức điện áp ở ngõ ra <br/> cho phép người dùng điều khiển ngoại vi theo ý muốn."/>
+          </div>
+          <div class="works__img--single change-color-on-hover">
+            <img src="./img/work-gps.png" alt="piggy bank" data-info="<img src='./img/work-gps-info.png' alt='New Image 1' /><br/>Thiết bị định vị Xe máy<br/> <br/>Thiết bị sử dụng ESP32 làm khối xử lí chính kết hợp modul GPS - NEO6M và SIM800L, buzzer báo động.<br/>Khi gửi FIND vào số điện thoại được kết nối với modul SIM800L thì bạn sẽ nhận được tin nhắn là link Google Map vị trí hiện tại của xe bạn.<br/>Nếu bạn cho rằng xe bạn đang trong tình trạng nị trộm hay tình huống nguy cấp thì có thể gửi ON để bật buzzer trên thiết bị,<br/>buzzer sẽ kêu cho đến khi nào bạn gửi OFF thì buzzer sẽ ngừng kêu. "/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <!-- dec -->
+        <div class="footer__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- img -->
+        <div class="footer__img">
+          <img src="./img/footer-img-1.png" alt="illustration of women" />
+        </div>
+        <!-- heading -->
+        <div class="footer__heading">
+          <h1>Ready to make something amazing?</h1>
+          <!-- contact -->
+          <div class="footer__contact">
+            <a href="tel:901234567">
+              <i class="fas fa-phone-alt"></i>
+              <p>0397595262</p>
+            </a>
+            <a href="mailto:info@me.com">
+              <i class="fas fa-envelope"></i>
+              <p>info@me.com</p>
+            </a>
+          </div>
+          <div class="banner__socials">
+            <a href="https://www.facebook.com/chitrung.huynh.9847/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+            <a href="https://www.linkedin.com/in/chi-trung-huynh-a596352b7/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/28c0af3030.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
